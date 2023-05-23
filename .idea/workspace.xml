@@ -4,38 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15e6e50b-c10e-482f-b064-66fbd3672ad1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CustomWebApplicationServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HttpRequest.java" afterDir="false" />
+    <list default="true" id="15e6e50b-c10e-482f-b064-66fbd3672ad1" name="Changes" comment=":white_check_mark: Request line의 queryString이 여러개일 경우 구현(key,value) test&#10;- operand1=11&amp;operator=*&amp;operand2=55">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/QueryString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/QueryStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RequestLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/domain/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/domain/EnumArithmeticOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/domain/PositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/AdditionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/ArithmeticOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/DivisionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/MultiplicationOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/SubtractionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/QueryStringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/QueryStringsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RequestLineTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +150,84 @@
       <option name="presentableId" value="Default" />
       <updated>1684811073681</updated>
     </task>
+    <task id="LOCAL-00001" summary=":sparkles: 프로젝트 생성">
+      <created>1684824085329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824085329</updated>
+    </task>
+    <task id="LOCAL-00002" summary=":sparkles: 기존에 oop-practice에서 생성한 사칙연산 계산기 파일 복붙">
+      <created>1684824314512</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824314512</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":sparkles: 해당 port로 server 띄우기(serverSocket을 생성)&#10;- 사용자 요청을 메인 Thread가 처리하도록 한다.">
+      <created>1684824391515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824391515</updated>
+    </task>
+    <task id="LOCAL-00004" summary=":sparkles: 8080 port로 server 띄우기">
+      <created>1684824416372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824416372</updated>
+    </task>
+    <task id="LOCAL-00005" summary=":sparkles: HttpRequest 양식에 맞춰 요청을 하는 클래스&#10;- 계산기에서는 Header와 Body가 필요없기 떄문에 구현하지 않음.">
+      <created>1684824509191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824509191</updated>
+    </task>
+    <task id="LOCAL-00006" summary=":sparkles: HttpRequest의 Request line 클래스 구현&#10;- GET /calculate?operand1=11&amp;operator=*&amp;operand2=55 HTTP/1.1">
+      <created>1684824581549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824581549</updated>
+    </task>
+    <task id="LOCAL-00007" summary=":white_check_mark: HttpRequest의 Request line 클래스 test&#10;- GET /calculate?operand1=11&amp;operator=*&amp;operand2=55 HTTP/1.1">
+      <created>1684824616405</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824616405</updated>
+    </task>
+    <task id="LOCAL-00008" summary=":sparkles: Request line의 queryString 부분 구현(key,value)&#10;- operand1=11&amp;operator=*&amp;operand2=55">
+      <created>1684824849323</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824849323</updated>
+    </task>
+    <task id="LOCAL-00009" summary=":white_check_mark: Request line의 queryString 부분 구현(key,value) test&#10;- operand1=11&amp;operator=*&amp;operand2=55">
+      <created>1684824867564</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824867564</updated>
+    </task>
+    <task id="LOCAL-00010" summary=":sparkles: Request line의 queryString이 여러개일 경우 구현(key,value)&#10;- operand1=11&amp;operator=*&amp;operand2=55">
+      <created>1684824912287</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824912287</updated>
+    </task>
+    <task id="LOCAL-00011" summary=":white_check_mark: Request line의 queryString이 여러개일 경우 구현(key,value) test&#10;- operand1=11&amp;operator=*&amp;operand2=55">
+      <created>1684824927044</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684824927044</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,5 +240,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":sparkles: 프로젝트 생성" />
+    <MESSAGE value=":sparkles: 기존에 oop-practice에서 생성한 사칙연산 계산기 파일 복붙" />
+    <MESSAGE value=":sparkles: 해당 port로 server 띄우기(serverSocket을 생성)&#10;- 사용자 요청을 메인 Thread가 처리하도록 한다." />
+    <MESSAGE value=":sparkles: 8080 port로 server 띄우기" />
+    <MESSAGE value=":sparkles: HttpRequest 양식에 맞춰 요청을 하는 클래스&#10;- 계산기에서는 Header와 Body가 필요없기 떄문에 구현하지 않음." />
+    <MESSAGE value=":sparkles: HttpRequest의 Request line 클래스 구현&#10;- GET /calculate?operand1=11&amp;operator=*&amp;operand2=55 HTTP/1.1" />
+    <MESSAGE value=":white_check_mark: HttpRequest의 Request line 클래스 test&#10;- GET /calculate?operand1=11&amp;operator=*&amp;operand2=55 HTTP/1.1" />
+    <MESSAGE value=":sparkles: Request line의 queryString 부분 구현(key,value)&#10;- operand1=11&amp;operator=*&amp;operand2=55" />
+    <MESSAGE value=":white_check_mark: Request line의 queryString 부분 구현(key,value) test&#10;- operand1=11&amp;operator=*&amp;operand2=55" />
+    <MESSAGE value=":sparkles: Request line의 queryString이 여러개일 경우 구현(key,value)&#10;- operand1=11&amp;operator=*&amp;operand2=55" />
+    <MESSAGE value=":white_check_mark: Request line의 queryString이 여러개일 경우 구현(key,value) test&#10;- operand1=11&amp;operator=*&amp;operand2=55" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: Request line의 queryString이 여러개일 경우 구현(key,value) test&#10;- operand1=11&amp;operator=*&amp;operand2=55" />
   </component>
 </project>
