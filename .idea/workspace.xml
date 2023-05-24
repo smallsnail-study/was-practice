@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15e6e50b-c10e-482f-b064-66fbd3672ad1" name="Changes" comment=":bug: 싱글톤에서 상태를 유지하게 설계한 경우 문제해결(동기화로 문제해결)&#10;- 상태를 유지(stateful)하게 설계해서 발생하는 RaceCondition을 동기화를 통해 해결">
+    <list default="true" id="15e6e50b-c10e-482f-b064-66fbd3672ad1" name="Changes" comment=":truck: 경로수정">
       <change afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684910287331</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary=":truck: 경로수정">
+      <created>1684911208417</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684911208417</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,11 +349,11 @@
     <MESSAGE value=":zap: Step2 - 사용자 요청이 들어올 때마다 Thread를 새로 생성해서 사용자 요청을 처리하도록 한다." />
     <MESSAGE value=":zap: Step2 - 사용자 요청이 들어올 때마다 Thread를 새로 생성해서 사용자 요청을 처리하도록 한다.&#10;- 사용자의 요청을 처리하는 별도의 클래스를 만들어서 요청이 들어올 때마다 스레드를 생성하도록 처리" />
     <MESSAGE value=":zap: Step3 - Thread Pool을 적용해 안정적인 서비스가 가능하도록 한다.&#10;- Step2의 단점 보완" />
-    <MESSAGE value=":truck: 경로수정" />
     <MESSAGE value=":memo: readme 수정" />
     <MESSAGE value=":sparkles: 싱글톤에서 상태를 유지하게 설계한 경우&#10;- 멀티스레드 환경에서 1개의 자원을 공유하게 되면 원치않는 결과(RaceCondition)가 나온다.&#10;- Thread safety 하지 않음 → 원치않는 결과(RaceCondition)가 발생할 수 있다." />
     <MESSAGE value=":sparkles: 싱글톤에서 상태를 유지하게 설계한 경우&#10;- 멀티스레드 환경에서 1개의 자원을 공유하게 되면 원치않는 결과(RaceCondition)가 나온다.&#10;- RaceCondition : 여러 프로세스 혹은 스레드가 동시에 1개의 자원에 접근하기 위해 경쟁하는 상태&#10;- Thread safety 하지 않음 → 원치않는 결과(RaceCondition)가 발생할 수 있다." />
     <MESSAGE value=":bug: 싱글톤에서 상태를 유지하게 설계한 경우 문제해결(동기화로 문제해결)&#10;- 상태를 유지(stateful)하게 설계해서 발생하는 RaceCondition을 동기화를 통해 해결" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bug: 싱글톤에서 상태를 유지하게 설계한 경우 문제해결(동기화로 문제해결)&#10;- 상태를 유지(stateful)하게 설계해서 발생하는 RaceCondition을 동기화를 통해 해결" />
+    <MESSAGE value=":truck: 경로수정" />
+    <option name="LAST_COMMIT_MESSAGE" value=":truck: 경로수정" />
   </component>
 </project>
