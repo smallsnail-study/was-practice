@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15e6e50b-c10e-482f-b064-66fbd3672ad1" name="Changes" comment=":truck: 경로수정">
+    <list default="true" id="15e6e50b-c10e-482f-b064-66fbd3672ad1" name="Changes" comment=":zap: Step3 - Thread Pool을 적용해 안정적인 서비스가 가능하도록 한다.&#10;- Step2의 단점 보완">
       <change afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -260,7 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684905097568</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=":truck: 경로수정">
+      <created>1684905515016</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684905515016</updated>
+    </task>
+    <task id="LOCAL-00018" summary=":zap: Step3 - Thread Pool을 적용해 안정적인 서비스가 가능하도록 한다.&#10;- Step2의 단점 보완">
+      <created>1684905561204</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684905561204</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +306,7 @@
     <MESSAGE value=":zap: Step2 - 사용자 요청이 들어올 때마다 Thread를 새로 생성해서 사용자 요청을 처리하도록 한다." />
     <MESSAGE value=":zap: Step2 - 사용자 요청이 들어올 때마다 Thread를 새로 생성해서 사용자 요청을 처리하도록 한다.&#10;- 사용자의 요청을 처리하는 별도의 클래스를 만들어서 요청이 들어올 때마다 스레드를 생성하도록 처리" />
     <MESSAGE value=":truck: 경로수정" />
-    <option name="LAST_COMMIT_MESSAGE" value=":truck: 경로수정" />
+    <MESSAGE value=":zap: Step3 - Thread Pool을 적용해 안정적인 서비스가 가능하도록 한다.&#10;- Step2의 단점 보완" />
+    <option name="LAST_COMMIT_MESSAGE" value=":zap: Step3 - Thread Pool을 적용해 안정적인 서비스가 가능하도록 한다.&#10;- Step2의 단점 보완" />
   </component>
 </project>
