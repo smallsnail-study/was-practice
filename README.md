@@ -14,4 +14,11 @@ WAS(WebApplicationServer) 실습 예제입니다.
       - Step3 - Thread Pool을 적용해 안정적인 서비스가 가능하도록 한다.
         - Thread Pool : 스레드를 고정된 개수만큼 생성하고 재활용
 
+- Servlet Container
+  - 서블릿 객체를 싱글톤으로 관리 
+    - 상태를 유지(stateful)하게 설계하면 안되는 이유를 구현 
+    - 멀티스레드 환경에서 1개의 자원을 공유하게 되면 원치않는 결과(RaceCondition)가 나온다. → 동기화를 통해 해결 가능
+      - Thread safety 하지 않음 → 원치않는 결과(RaceCondition)가 발생할 수 있다.
+      - RaceCondition : 여러 프로세스 혹은 스레드가 동시에 1개의 자원에 접근하기 위해 경쟁하는 상태
+
 [10개 프로젝트로 완성하는 백엔드 웹개발(Java/Spring) 초격차 패키지 Online.](https://fastcampus.co.kr/dev_online_befinal) 강의를 보며 진행한 예제
